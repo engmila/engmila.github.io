@@ -2,28 +2,32 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
+			<meta charset="utf-8" />
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+		<body class="is-preload">
+			<!-- Wrapper-->
+			<div id="wrapper">
+				<!-- Nav -->
+				<nav id="nav">
+					<a href="#" class="icon solid fa-home"><span>Home</span></a>
+					<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+					<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+					<a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a>
+				</nav>
+				<div class="container">
 			
-			{{ content }}
+					{{ content }}
 			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="camila.nascimento@powercoders.org">email</a></li>
-	        		<li><a href="https://github.com/engmila">github.com/engmila</a></li>
-				</ul>
-			</footer>
+				</div><!-- /.container -->
+				<!-- Footer -->
+				<div id="footer">
+					<ul class="copyright">
+						<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			<\div>
 		</body>
 	</html>
