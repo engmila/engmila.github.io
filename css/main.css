@@ -2140,6 +2140,10 @@ input, select, textarea {
 
 				}
 
+				#return {
+					text-align: center;
+				}
+
 				#return a span {
 					display: block;
 					position: absolute;
@@ -2158,18 +2162,6 @@ input, select, textarea {
 					width: 5.5em;
 					margin-left: -2.75em;
 				}
-	
-					#return a span:after {
-						content: '';
-						display: block;
-						position: absolute;
-						bottom: -0.4em;
-						left: 50%;
-						margin-left: -0.6em;
-						border-top: solid 0.6em #222222;
-						border-left: solid 0.6em transparent;
-						border-right: solid 0.6em transparent;
-					}
 
 /* Footer */
 
