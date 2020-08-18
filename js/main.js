@@ -210,3 +210,8 @@
 		}
 
 })(jQuery);
+
+
+function sendMessage() {
+	alert ('Thanks for contact me!')
+}
