@@ -2142,6 +2142,7 @@ input, select, textarea {
 
 				.returnBtn {
 					text-align: center;
+					cursor: pointer;
 				}
 
 				.returnBtn a:after {
