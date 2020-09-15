@@ -47,6 +47,12 @@
 				// Change panels.
 					if (window.location.hash != href)
 						window.location.hash = href;
+				
+				// Load blog page with posts
+				if(href == blog)
+				{
+					$("#blog").load("/pages/blog.html");
+				}
 
 			});
 

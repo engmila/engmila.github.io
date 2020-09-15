@@ -1,27 +1,67 @@
----
-layout: default
-title: Camila Nascimento
----
-<!--container--> 
-<header>
-	<h2>My Posts</h2>
-</header>
-	<p>
-		Here are my posts from what I have learned about web development.
-	</p>
-<section>
-	<div class="row">
-		<div class="col-4 col-6-medium col-12-small">
-			<a href="blog/htmlPost.html" class="image fit" target="_blank"><img src="images/html.png" alt="HTML image"></a>
-			<p><strong>What is HTML?</strong></p>	
-		</div>
-		<div class="col-4 col-6-medium col-12-small">
-			<a href="blog/helloWorldHtmlPost.html" class="image fit" target="_blank"><img src="images/helloworld.jpg" alt=""></a>
-			<p><strong>HTML</strong></p>
-		</div>
-		<div class="col-4 col-6-medium col-12-small">
-			<a href="blog/cssPost.html" class="image fit" target="_blank"><img src="images/css.jpg" alt=""></a>
-			<p><strong>What is CSS?</strong></p>
-		</div>
-	</div>
-</section>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Camila Nascimento Website</title>
+			<meta charset="utf-8" />
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
+		</head>
+		<body class="is-preload">
+			<!-- Wrapper-->
+			<div id="wrapper">
+				<!-- Nav -->
+				<nav id="nav">
+					<a href="#" class="icon solid fa-home"><span>Home</span></a>
+					<a href="#about" class="icon solid fa-address-card"><span>About Me</span></a>
+					<a href="#curriculum" class="icon solid fa-file-alt"><span>Curriculum</span></a>
+					<a href="#blog" class="icon solid fa-folder"><span>Posts</span></a>
+					<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+					<a href="https://www.linkedin.com/in/camila-nascimento-a7073025" class="icon brands fa-linkedin" target="_blank"><span>Linkedin</span></a>
+				</nav>
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Me -->
+					<article id="home" class="panel intro"></article>
+
+					<!-- About Me -->
+					<article id="about" class="panel"></article>
+
+					<!-- Curriculum -->
+					<article id="curriculum" class="panel"></article>
+
+					<!-- Blog -->
+					<article id="blog" class="panel"></article>
+
+					<!-- Contact -->
+					<article id="contact" class="panel"></article>
+
+				</div>
+				
+				<!-- Footer -->
+				<div id="footer">
+					<ul class="copyright">
+						<li>&copy; engmila</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+					<ul>
+						<!-- visitors counter -->
+						<p>
+							Visitor: <img style="border: 0px solid; display: inline;" alt="visitors counter" src="http://www.websmultimedia.com/contador-de-visitas.php?id=282882">
+						</p>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
+			<script src="/js/panel.js"></script>
+			<script src="/js/blog.js"></script>
+
+		</body>
+	</html>
+

@@ -1,7 +1,13 @@
-$("#home").load("/pages/home.html");
+(function($) {
 
-$("#about").load("/pages/aboutme.html");
+    $("#home").load("/pages/home.html");
 
-$("#curriculum").load("/pages/curriculum.html");
+    $("#about").load("/pages/aboutme.html");
 
-$("#contact").load("/pages/contactme.html");
+    $("#curriculum").load("/pages/curriculum.html");
+
+    $("#blog").load("/pages/blog.html");
+
+    $("#contact").load("/pages/contactme.html");
+
+})(jQuery);
