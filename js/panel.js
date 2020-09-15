@@ -8,6 +8,8 @@
 
     $("#blog").load("/pages/blog.html");
 
+    $("#powercoders").load("/pages/powercoders.html");
+
     $("#contact").load("/pages/contactme.html");
 
 })(jQuery);

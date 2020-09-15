@@ -15,3 +15,4 @@ function blogOpen(){
     $("#blog").load("/pages/blog.html");
 }
 
+
